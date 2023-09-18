@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Suite-Regular";
+  src: url(../font/SUITE-Regular.woff2);
+}
+* {
+  font-family: "Suite-Regular" !important;
+}
+
+#page-top .navbar-brand {
+  height: 100%;
+}
