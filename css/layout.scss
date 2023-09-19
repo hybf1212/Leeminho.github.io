@@ -8,7 +8,64 @@
 }
 
 #page-top{
-    .navbar-brand{
-        height: 100%;        
+    .masthead{
+        height: 680px;
+        .masthead-ins{
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -25%);
+            z-index: 100;
+        }
+        .banner-button{
+            border-radius: 30px !important;
+        }
     }
+    #portfolio{
+        .skills-strong{
+            .skills-text{
+                font-size: 25px;
+                color: #6c757d;
+            }
+            .skills-box{
+                img{
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+.footer{
+    background-color: #212529;
+    color: white;
+    
+}
+
+
+
+
+html,body{ 
+	width:100%;
+	height:100%;
+
+}
+
+
+
+canvas{
+  display:block;
+  height: 680px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  
+  
 }
