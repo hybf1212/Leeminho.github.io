@@ -18,12 +18,21 @@
 #page-top .masthead .banner-button {
   border-radius: 30px !important;
 }
-#page-top #portfolio .skills-strong .skills-text {
-  font-size: 25px;
+#page-top #portfolio .skills-text {
+  font-size: 21px;
   color: #6c757d;
 }
-#page-top #portfolio .skills-strong .skills-box img {
+#page-top #portfolio .skills-box img {
   width: 100px;
+}
+#page-top #contact p {
+  font-size: 1.5rem;
+}
+#page-top #contact a {
+  font-size: 3.4rem;
+}
+#page-top #contact .tel-icon {
+  margin-right: 13px;
 }
 
 .footer {
@@ -43,5 +52,3 @@ canvas {
   top: 0;
   left: 0;
 }
-
-/* ---- particles.js container ---- */

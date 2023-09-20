@@ -20,17 +20,26 @@
             border-radius: 30px !important;
         }
     }
-    #portfolio{
-        .skills-strong{
-            .skills-text{
-                font-size: 25px;
-                color: #6c757d;
+    #portfolio{        
+        .skills-text{
+            font-size: 21px;
+            color: #6c757d;
+        }
+        .skills-box{
+            img{
+                width: 100px;
             }
-            .skills-box{
-                img{
-                    width: 100px;
-                }
-            }
+        }        
+    }
+    #contact{  
+        p{
+            font-size: 1.5rem;            
+        }      
+        a{
+            font-size: 3.4rem;            
+        }
+        .tel-icon{
+            margin-right: 13px;
         }
     }
 }
@@ -63,9 +72,4 @@ canvas{
 
 
 
-/* ---- particles.js container ---- */
 
-#particles-js{
-  
-  
-}

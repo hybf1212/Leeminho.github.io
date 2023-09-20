@@ -2,7 +2,7 @@ particlesJS("particles-js",
 {"particles":
 {"number":
 {"value":6,"density":{"enable":true,"value_area":800}},
-"color":{"value":"#222225"},
+"color":{"value":"#29292d"},
 "shape":{"type":"polygon",
 "stroke":{"width":0,"color":"#000"},
 "polygon":{"nb_sides":6},
