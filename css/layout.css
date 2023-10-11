@@ -6,6 +6,10 @@
   font-family: "Suite-Regular" !important;
 }
 
+:root {
+  --swiper-navigation-size: 22px ;
+}
+
 #page-top .masthead {
   height: 680px;
 }
@@ -52,3 +56,56 @@ canvas {
   top: 0;
   left: 0;
 }
+
+#about .projects-item h5 {
+  color: #5d6061;
+  font-weight: 500;
+  font-size: 20px;
+}
+#about .swiper-btn-wrap #swiper-1 {
+  width: 100%;
+}
+#about .swiper-btn-wrap #swiper-1 .swiper {
+  width: 100%;
+  height: 100%;
+}
+#about .swiper-btn-wrap #swiper-1 .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+#about .swiper-btn-wrap #swiper-1 .swiper-pagination {
+  width: 90px;
+  position: static;
+  text-align: center;
+  transition: 0.3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+#about .swiper-btn-wrap #swiper-1 .swiper-button-next, #about .swiper-btn-wrap #swiper-1 .swiper-button-prev {
+  position: static;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: 1px;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+#about .projects-item-text {
+  font-size: 18px;
+}
+#about .projects-item-text p {
+  margin: 0;
+}
+#about .projects-item-text .pit-small-title {
+  font-weight: 600;
+  color: #373738;
+}
+#about .projects-item-text .pit-small-text {
+  word-break: break-all;
+}
+#about .projects-item-text .pit-small-text a {
+  text-decoration: none;
+  color: #212529;
+}/*# sourceMappingURL=layout.css.map */

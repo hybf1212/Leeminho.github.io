@@ -7,20 +7,19 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Leeminho's Portfolio</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- 바로가기 -->
+        
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />       
 
-        <!-- 부트스트랩 아이콘 -->
+        
         <link rel="stylesheet" href="./font/bootstrap-icons.css">
         
-        <!-- Google fonts-->
+        
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
 
         <link rel="stylesheet" href="css/swiper-bundle.min.css">
         <link rel="stylesheet" href="css/aos.css">
-        <!-- Core theme CSS (includes Bootstrap)-->
+        
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/layout.css">
     </head>
@@ -121,15 +120,81 @@
         </section>
         
         <section class="page-section" id="about">
-            <div class="container">
+            <div class="container-lg">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">PROJECTS</h2>                    
                 </div>
-                <div class="projects-item">
-                    <h4></h4>
-                </div>
-                <div></div>
-                
+                <div class="projects-item text-center bg-light rounded shadow-sm" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="p-4 p-md-5"> 
+                        <h4>Sennheiser 광고웹앱</h4>     
+                        <h5>- 개인 프로젝트 -</h5>                  
+                        <div class="row pt-lg-5 pt-3 pt-sm-4">
+                            <div class="swiper-btn-wrap col-lg-6">
+                                <div id="swiper-1">                               
+                                    <div class="swiper mySwiper rounded">
+                                        <div class="swiper-wrapper">
+                                          <div class="swiper-slide">
+                                            <img class="rounded" src="assets/img/projects/sennheiser-1.jpg" alt="">
+                                          </div>
+                                          <div class="swiper-slide">
+                                            <img class="rounded" src="assets/img/projects/sennheiser-2.jpg" alt="">
+                                          </div>                                                                         
+                                        </div>                                    
+                                    </div>
+                                    <div class="d-flex justify-content-center my-3">
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-pagination text-black"></div>                                        
+                                        <div class="swiper-button-next"></div>                                        
+                                    </div>                                                                      
+                                </div>
+                            </div> 
+                            <div class="projects-item-text col-lg-6 text-start">
+                                <div class="px-3 pt-3 pt-lg-0">
+                                    <div class="d-flex mb-3">
+                                        <div>
+                                            <p><i class="bi bi-dot"></i></p>
+                                        </div>
+                                        <div>
+                                            <p>독일의 음향기기 및 음향장비 기업인 Sennheiser 사의 홈페이지를 리뉴얼 해보았습니다.</p>
+                                        </div>
+                                    </div>    
+                                    <div class="d-md-flex mb-3">
+                                        <div class="pit-small-title col-md-3">
+                                            <p><i class="bi bi-dot"></i>제작기간</p>
+                                        </div>
+                                        <div class="pit-small-text col-md-9 mx-3 mx-md-0">
+                                            <p>3주</p>
+                                        </div>
+                                    </div>   
+                                    <div class="d-md-flex mb-3">
+                                        <div class="pit-small-title col-md-3">
+                                            <p><i class="bi bi-dot"></i>Tech</p>
+                                        </div>
+                                        <div class="pit-small-text col-md-9 mx-3 mx-md-0">
+                                            <p>React, JavaScript, Scss, Node</p>
+                                        </div>
+                                    </div>          
+                                    <div class="d-md-flex mb-3">
+                                        <div class="pit-small-title col-md-3">
+                                            <p><i class="bi bi-dot"></i>Github</p>
+                                        </div>
+                                        <div class="pit-small-text col-md-9 mx-3 mx-md-0">
+                                            <a href="https://github.com/hybf1212/Sennheiser-react" target="_blank">https://github.com/hybf1212/Sennheiser-react</a>
+                                        </div>
+                                    </div>     
+                                    <div class="d-md-flex mb-3">
+                                        <div class="pit-small-title col-md-3">
+                                            <p><i class="bi bi-dot"></i>Link</p>
+                                        </div>
+                                        <div class="pit-small-text col-md-9 mx-3 mx-md-0">
+                                            <a href="http://leeminho.cafe24app.com/" target="_blank">http://leeminho.cafe24app.com/</a>
+                                        </div>
+                                    </div>                                                        
+                                </div>                                
+                            </div>                                                                                                            
+                        </div>                        
+                    </div>                    
+                </div>               
             </div>
         </section>
         
@@ -179,6 +244,7 @@
         <script src="js/sb-forms-0.4.1.js"></script>
 
         <script src="js/jquery-2.2.4.js"></script>
+        <script src="js/swiperjs.js"></script>
         <script src="js/mjs.js"></script>
     </body>
 </html>
